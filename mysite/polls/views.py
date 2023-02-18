@@ -55,3 +55,7 @@ def vote(request, question_id):
 class ResultsView(generic.DetailView):
     model = Question
     template_name = 'polls/results.html'
+
+def comments(request):
+    return render(request, 'polls/comments.html')
+

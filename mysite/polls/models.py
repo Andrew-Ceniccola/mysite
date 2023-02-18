@@ -29,3 +29,7 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+# Comments Class
+class Comments(models.Model):
+    return
